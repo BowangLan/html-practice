@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rec System by Jo Jo (Jeffrey)</title>
+  </head>
+  <body class="w-screen h-screen flex flex-col">
+    <div class="flex-1">
+      <header class="w-full bg-gradient-to-b from-purple-50 to-purple-100 px-6">
+        <h2 class="text-xl py-4 font-semibold text-purple-900">IKEA Search</h2>
+      </header>
+      <main
+        class="py-4 bg-gradient-to-t from-slate-50 to-slate-50"
+      >
+        <div class="max-w-2xl mx-auto ">
+          <section class="py-4">
+            <p class="mb-4 text-purple-900">
+              Search for various products IKEA products...
+            </p>
+
+            <form action="search.php" method="post" class="flex items-left">
+              <div
+                class="focus-within:bg-purple-100 mr-4 px-4 bg-slate-100 rounded-md overflow-hidden flex justify-center items-center flex-1 transition duration-300"
+              >
+                <input
+                  type="text"
+                  size="40"
+                  placeholder="Enter search query..."
+                  name="search_string"
+                  class="bg-transparent outline-none w-full "
+                />
+              </div>
+              <input
+                type="submit"
+                value="Search"
+                class="px-4 py-2 bg-purple-600 text-white rounded-md transition duration-300 hover:bg-purple-700"
+              />
+            </form>
+          </section>
+          <section class="py-4">
+            <div class="text-xl font-bold text-purple-900 mb-3">
+              Recommendations by Jo Jo
+            </div>
+            <ul class="flex flex-wrap gap-3">
+              <li
+                class="inline-block px-2 py-2 bg-slate-100 text-sm text-purple-800 rounded-md hover:bg-purple-100 transition duration-300 cursor-pointer"
+              >
+                &#10060; NBA Games
+              </li>
+              <li
+                class="inline-block px-2 py-2 bg-slate-100 text-sm text-blue-800 rounded-md hover:bg-blue-100 transition duration-300 cursor-pointer"
+              >
+                &#9989; Youtube UI Design Video
+              </li>
+              <li
+                class="inline-block px-2 py-2 bg-slate-100 text-sm text-cyan-800 rounded-md hover:bg-cyan-100 transition duration-300 cursor-pointer"
+              >
+                &#10060; Youtube XPAHT Video
+              </li>
+              <li
+                class="inline-block px-2 py-2 bg-slate-100 text-sm text-green-800 rounded-md hover:bg-green-100 transition duration-300 cursor-pointer"
+              >
+                &#10060; Youtube XPAHT Video
+              </li>
+            </ul>
+          </section>
+          <section class="py-4">
+            <div class="text-xl font-bold text-purple-900 my-3">
+              Search results:
+            </div>
+            <ul class="flex flex-col gap-2">
+              <li
+                class="px-3 py-3 bg-slate-100 rounded-md hover:bg-purple-100 transition duration-300"
+              >
+                Youtube XPAHT Video
+              </li>
+              <li
+                class="px-3 py-3 bg-slate-100 rounded-md hover:bg-purple-100 transition duration-300"
+              >
+                Youtube XPAHT Video
+              </li>
+              <li
+                class="px-3 py-3 bg-slate-100 rounded-md hover:bg-purple-100 transition duration-300"
+              >
+                Youtube XPAHT Video
+              </li>
+              <li
+                class="px-3 py-3 bg-slate-100 rounded-md hover:bg-purple-100 transition duration-300"
+              >
+                &#9989; Youtube XPAHT Video
+              </li>
+              <li
+                class="px-3 py-3 bg-slate-100 rounded-md hover:bg-purple-100 transition duration-300"
+              >
+                Youtube XPAHT Video
+              </li>
+              <li
+                class="px-3 py-3 bg-slate-100 rounded-md hover:bg-purple-100 transition duration-300"
+              >
+                Youtube XPAHT Video
+              </li>
+            </ul>
+          </section>
+        </div>
+      </main>
+    </div>
+    <footer class="flex-none px-6 py-6 bg-slate-200">
+      <div class="">By Jo Jo Gong, Ashley, Noah, Suraj</div>
+      <a rel="license" href="" class="flex"
+        ><img
+          class="flex-none"
+          alt="Creative Commons License"
+          style="border-width: 0"
+          src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"
+      /></a>
+      <p class="text-slate-500">
+        This work is licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"
+          >Creative Commons Attribution-NonCommercial 4.0 International
+          License</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
